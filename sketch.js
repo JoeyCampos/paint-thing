@@ -13,7 +13,7 @@ function setup() {
     noStroke();
 
     rectMode(CENTER);
-
+/*
     ar = createInput();
     ar.position(420, 120);
     ar.size(50);
@@ -35,7 +35,7 @@ function setup() {
     button = createButton('Change Color');
     button.position(420, 210);
     button.mousePressed(rgb);
-
+*/
     function rgb(){
         var R = ar.value()
         var G = ge.value()
@@ -47,9 +47,9 @@ function setup() {
 function draw() {
 background(0,0,0)
 
-fill(255,255,255);
-text("Color Hex Here", 10, 30);
-
+fill(255);
+text("Color Changing Coming Soon", 10, 30);
+/*
 fill(255,255,255);
 text("R", 80, 58);
 
@@ -58,9 +58,10 @@ text("G", 80, 88);
 
 fill(255,255,255);
 text("B", 80, 118);
-
+*/
 if (drawing == false){
     input.value();
+
 }
 
 
