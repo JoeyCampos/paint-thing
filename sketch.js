@@ -13,29 +13,7 @@ function setup() {
     noStroke();
 
     rectMode(CENTER);
-/*
-    ar = createInput();
-    ar.position(420, 120);
-    ar.size(50);
-    fill(255,255,255);
-    text("R", 80, 58);
-    
-    ge = createInput();
-    ge.position(420, 150);
-    ge.size(50);
-    fill(255,255,255);
-    text("G", 80, 88);
-    
-    be = createInput();
-    be.position(420, 180);
-    be.size(50);
-    fill(255,255,255);
-    text("B", 80, 118);
 
-    button = createButton('Change Color');
-    button.position(420, 210);
-    button.mousePressed(rgb);
-*/
     function rgb(){
         var R = ar.value()
         var G = ge.value()
@@ -49,16 +27,6 @@ background(0,0,0)
 
 fill(255);
 text("Color Changing Coming Soon", 10, 30);
-/*
-fill(255,255,255);
-text("R", 80, 58);
-
-fill(255,255,255);
-text("G", 80, 88);
-
-fill(255,255,255);
-text("B", 80, 118);
-*/
 if (drawing == false){
     input.value();
 
@@ -83,6 +51,14 @@ function mouseDragged(){
 
 function mouseReleased() {
     drawing = false;
+}
+
+function Rgb(){
+    var p = document.querySelector("p");
+    
+    if (p) {
+    p.style.color = event.target.value
+    }
 }
 
 function rgb(){
@@ -120,4 +96,4 @@ function keyPressed(e) {
   
   function saveState() {
     previousState = get();
-  }
+ }
