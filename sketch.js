@@ -1,6 +1,3 @@
-
-var R, G, B;
-
 let drawing = false;
 
 let Color;
@@ -10,6 +7,7 @@ function preload() {
 
 function setup() {
     colPic = createColorPicker("white"); 
+    colPic.position(600,140)
     createCanvas(1000, 900,);
     noStroke();
 
@@ -19,7 +17,7 @@ function setup() {
 function draw() {
 background(0,0,0)
 fill(255);
-text("Scroll Down to get color Picker!", 10, 30);
+text("World Of Color Update", 10, 30);
 if (drawing == false){
     input.value();
 
