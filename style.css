@@ -3,8 +3,8 @@ h1{
     color:rgb(3, 112, 76);
 }
 body {
-        padding-left: 400px;
-        background: linear-gradient(180deg, rgb(23, 182, 148) 0%, hsl(196,90%,50%) 100%);
+   padding-left: 400px;
+   background: linear-gradient(180deg, rgb(23, 182, 148) 0%, hsl(196,90%,50%) 100%);
 }
 
 
@@ -87,5 +87,4 @@ a:visited {
 .dropdown:hover .about-content {
    display: block;
    font-size: 20px;
-
 }
