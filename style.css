@@ -1,10 +1,10 @@
 h1{
     margin-left: 350px;
-    color:aquamarine;
+    color:rgb(3, 112, 76);
 }
 body {
         padding-left: 400px;
-        background-color:darkslategrey;
+        background: linear-gradient(180deg, rgb(23, 182, 148) 0%, hsl(196,90%,50%) 100%);
 }
 
 
@@ -50,7 +50,8 @@ script {
 }
 
 nav {
-   background-color: darkcyan;
+   
+   background:linear-gradient((180deg, hsl(255,75%,50%) 0%, hsl(196,90%,50%) 100%);)
    padding: 5px;
    display: flex;
    justify-content: space-around;
